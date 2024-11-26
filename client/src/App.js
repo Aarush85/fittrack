@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Workouts from "./pages/Workouts";
 import Blogs from "./pages/Blogs";
 import Tutorial from "./pages/Tutorial";
+import Contact from "./pages/Contact";
 
 const Container = styled.div`
   width: 100%;
@@ -35,6 +36,7 @@ function App() {
               <Route path="/workouts" exact element={<Workouts />} />
               <Route path="/blogs" exact element={<Blogs />} />
               <Route path="/tutorials" exact element={<Tutorial />} />
+              <Route path="/contact" exact element={<Contact />} />
 
             </Routes>
           </Container>
